@@ -1,0 +1,65 @@
+/* Main App Styles */
+.App {
+  text-align: center;
+}
+
+/* Section visibility */
+.section-content {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.5s ease-in, transform 0.5s ease-in;
+}
+
+.section-content.hidden {
+  display: none;
+}
+
+/* Glass morphism effect for cards */
+.glass-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(59, 130, 246, 0.7);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(59, 130, 246, 0.9);
+}
+
+/* Focus styles for accessibility */
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #3B82F6;
+  outline-offset: 2px;
+}
+
+/* Navigation button active state */
+.nav-btn.active {
+  color: #60A5FA;
+}
+
+/* Project cards hover effects */
+.project-card {
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  border-color: #60A5FA;
+}
