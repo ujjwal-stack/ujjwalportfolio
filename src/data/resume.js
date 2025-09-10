@@ -22,11 +22,11 @@ export const resumeData = {
     },
     {
       category: 'Databases',
-      skills: 'MongoDB, PostgreSQL, MySQL, Redis, Database Design, Query Optimization'
+      skills: 'MongoDB, PostgreSQL, MySQL, Oracle, Database Design, Query Optimization'
     },
     {
       category: 'Tools & Others',
-      skills: 'Git, Docker, AWS, Postman, Jest, Webpack, npm/yarn, Agile/Scrum'
+      skills: 'Git, Docker, AWS, Postman, Webpack, npm/yarn, Agile/Scrum'
     }
   ],
   
