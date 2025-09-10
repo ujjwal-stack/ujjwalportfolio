@@ -125,10 +125,10 @@ const About = ({ isActive }) => {
                         <div class="border-l-4 border-green-500 pl-4">
                             <h4 class="font-semibold flex items-center">
                                 <span class="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
-                                Bachelor of Computer Science
+                                Bachelor of Technology
                             </h4>
-                            <p class="text-gray-300">University of Technology • 2016 - 2020</p>
-                            <p class="text-sm text-gray-400 mt-2">Graduated Magna Cum Laude</p>
+                            <p class="text-gray-300">A.K.T.U University • 2020 - 2024</p>
+                            <p class="text-sm text-gray-400 mt-2">Graduated </p>
                         </div>
                         <div class="border-l-4 border-yellow-500 pl-4">
                             <h4 class="font-semibold flex items-center">
